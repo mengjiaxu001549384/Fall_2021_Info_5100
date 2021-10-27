@@ -22,8 +22,7 @@ public class Reference extends Book {
     //Also implement the abstract method in parent class.
     @Override
     public String description() {
-        String d = this.getTitle() + " all information is real.";
-        return d;
+        return this.getTitle() + " all information is real.";
     }
 }
 

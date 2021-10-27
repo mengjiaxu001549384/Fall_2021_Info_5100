@@ -11,8 +11,7 @@ public class Fiction extends Book implements iBorrowable {
     //Also implement the abstract method in parent class.
     @Override
     public String description() {
-        String d = this.getTitle() + " all events are imaginary and not based on real facts.";
-        return d;
+        return this.getTitle() + " all events are imaginary and not based on real facts.";
     }
 
     @Override
