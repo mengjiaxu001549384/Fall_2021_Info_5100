@@ -86,7 +86,6 @@ public class Main {
                 count++;
             }
 
-            end++;
             while(count > 0){
                 char l = s.charAt(start);
                 if(map.get(l) > 1){
@@ -95,6 +94,8 @@ public class Main {
                 map.put(l, map.get(l) - 1);
                 start++;
             }
+
+            end++;
             if(end - start > len){
                 i = start;
                 j = end;
