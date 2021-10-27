@@ -1,4 +1,4 @@
-package Question1;
+package Mengjia.Question1;
 
 public interface iBorrowable {
     void setBorrowDate(int day);

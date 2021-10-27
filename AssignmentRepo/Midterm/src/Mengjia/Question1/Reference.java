@@ -1,6 +1,4 @@
-package Question1;
-
-import Question1.Book;
+package Mengjia.Question1;
 
 //This class should extends book class.
 public class Reference extends Book {

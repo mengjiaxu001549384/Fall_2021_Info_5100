@@ -1,4 +1,4 @@
-package Question1;
+package Mengjia.Question1;
 
 public abstract class Book {
     //Fields: String title, double price, String publishYear

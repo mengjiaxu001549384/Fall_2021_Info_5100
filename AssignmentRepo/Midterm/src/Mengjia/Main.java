@@ -1,9 +1,9 @@
 package Mengjia;
 
-import Question1.Book;
-import Question1.Fiction;
-import Question1.NonFiction;
-import Question1.Reference;
+import Mengjia.Question1.Book;
+import Mengjia.Question1.Fiction;
+import Mengjia.Question1.NonFiction;
+import Mengjia.Question1.Reference;
 
 import java.util.*;
 
