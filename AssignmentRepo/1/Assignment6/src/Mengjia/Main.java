@@ -65,22 +65,30 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         String s = sc.nextLine();
+
         Date dateOfBirth = null;
+        Date today = null;
+        long age = 0;
         try {
             dateOfBirth = new SimpleDateFormat("dd/MM/yyyy").parse(s);
+            today = new Date();
+            age = getAge(today, dateOfBirth);
         } catch (ParseException e) {
             e.printStackTrace();
-        }
-        Date today = new Date();
+        } catch (AgeException ageException){
+            System.out.println("catch age exception");
+        } 
+
+    }
+
+    public static long getAge(Date today, Date dateOfBirth) throws AgeException{
+
         long age = (today.getTime()-dateOfBirth.getTime())/31536000000L;
 
         if(age < 16){
-            try {
-                throw new AgeException("The age of the applicant is " + age + " which is too early to apply for a driving license");
-            } catch (AgeException e) {
-                e.printStackTrace();
-            }
+            throw new AgeException("The age of the applicant is " + age + " which is too early to apply for a driving license");
         }
 
+        return age;
     }
 }
