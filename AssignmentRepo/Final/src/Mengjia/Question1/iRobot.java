@@ -1,4 +1,4 @@
-package Mengjia;
+package Mengjia.Question1;
 
 public interface iRobot {
     boolean move();

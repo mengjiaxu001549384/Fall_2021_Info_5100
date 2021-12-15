@@ -1,4 +1,8 @@
-package Mengjia;
+package Mengjia.Question4;
+
+import Mengjia.Question4.Genre;
+import Mengjia.Question4.Movie;
+import Mengjia.Question4.Netflix;
 
 import java.util.*;
 import java.util.function.Predicate;

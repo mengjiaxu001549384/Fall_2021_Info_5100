@@ -1,4 +1,6 @@
-package Mengjia;
+package Mengjia.Question1;
+
+import Mengjia.Question1.Roomba;
 
 public class Q1 {
     public void setRoomba(){

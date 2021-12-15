@@ -1,4 +1,4 @@
-package Mengjia;
+package Mengjia.Question3;
 
 import java.util.*;
 

@@ -1,4 +1,6 @@
-package Mengjia;
+package Mengjia.Question4;
+
+import Mengjia.Question4.Genre;
 
 import java.util.*;
 

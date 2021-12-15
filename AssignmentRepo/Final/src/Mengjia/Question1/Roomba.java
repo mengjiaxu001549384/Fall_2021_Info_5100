@@ -1,6 +1,9 @@
-package Mengjia;
+package Mengjia.Question1;
 
-public final class Roomba implements iRobot{
+import Mengjia.Main;
+import Mengjia.Question1.iRobot;
+
+public final class Roomba implements iRobot {
     int[][] room;
     int i;
     int j;
